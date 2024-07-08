@@ -1,3 +1,3 @@
-function changeDisciption(){
-    document.getElementById('discription').style='color:blue'
+function changeDisciption(color){
+    document.getElementById('discription').style.color=color
 }
