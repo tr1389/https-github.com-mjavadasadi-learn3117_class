@@ -4,6 +4,16 @@ table{
     width: 100%;
     text-align: center;
 }
+
+    
+
+
+#contactBody{
+    transition: all ,10s, ease-in-out, 5s;
+}
+
+
+
 th,td{
     border: 1px solid #ddd;
     padding: 3% 1%
@@ -39,9 +49,10 @@ button{
     border-collapse:collapse;
     border-radius:  3px;
     cursor: pointer;
+    transition: all ,3s, ease-in-out, 3s;
 }
 button:hover{
-    background-color: #218838;
+    background-color: #ff6803;
 }
 #confirmationMassage{
     display: none;

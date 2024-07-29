@@ -16,19 +16,12 @@ document.getElementById("contactForm").addEventListener("submit", function (even
     }
   });
 
-
-
-
-
-
-
-
-
-
 let contactForm = document.getElementById("contactForm");
 let confirmationMassage = document.getElementById("confirmationMassage");
-
-contactForm.addEventListener('submit', function (event) {
+let body=document.getElementById("contactBody")
+let button=document.getElementById("slm") 
+contactForm.addEventListener('submit', function (event,body) {
   event.preventDefault();
   confirmationMassage.style.display='block';
+  body.style.color= rgb(0,255,0)
 });
